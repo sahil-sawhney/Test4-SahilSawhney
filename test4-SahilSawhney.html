@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>beautiful Modals</title>
+	<link rel="stylesheet" type="text/css" href="test4.css">
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="container-fluid">
+
+		<div class="row">
+			<nav class="navbar navbar-default" style="background:  #76C922">
+			  	<div class="container">
+   					<div class="navbar-header">
+      					<a class="navbar-brand" style="color: white;font-size: 30px; " href="#"><b>Shoper Stop</b></a>
+   					</div>
+    				<ul class="nav navbar-nav">
+      				<li class="active"><a href="#">Home</a></li>
+      				<li><a href="#">Ladies</a></li>
+      				<li><a href="#">Mens</a></li> 
+      				<li><a href="#">Kids</a></li> 
+    				</ul>
+  				</div>
+			</nav>
+		</div>
+
+		<br><br><br>
+
+		<div class="row">	
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  			<!-- Indicators -->
+  			<ol class="carousel-indicators">
+  				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+   				<li data-target="#myCarousel" data-slide-to="1"></li>
+   				<li data-target="#myCarousel" data-slide-to="2"></li>
+    			<li data-target="#myCarousel" data-slide-to="3"></li>
+ 			 </ol>
+
+  			<!-- Wrapper for slides -->
+ 			<div class="carousel-inner" role="listbox">
+    			<div class="item active">
+     				<img src="myImages/shop1.jpg" class="corrosal-img" alt="shop1">
+    			</div>
+
+    			<div class="item">
+     				 <img src="myImages/shop2.jpeg" class="corrosal-img" alt="shop2">
+   				 </div>
+
+    			<div class="item">
+     				 <img src="myImages/shop3.jpg" class="corrosal-img" alt="shop3">
+    			</div>
+
+    			<div class="item">
+     				 <img src="myImages/shop4.jpg" class="corrosal-img" alt="shop4">
+    			</div>
+ 			</div>
+
+  			<!-- Left and right controls -->
+  			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+ 			</a>
+  			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+   				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+		</div>
+
+		<br><br><br><br>
+		<div class="row"></div>
+		<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		<fieldset class="col-md-10 col-sm-10 col-xs-10">
+
+			<legend class="productPrice" align="center" style="font-size: 50px; color: orange"><b>Featured Products : </b></legend>
+			<div id="div1" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				
+				<img id="img1" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item1.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$10<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Ladies Bag</label>
+				<button id="btn1" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+				
+			</div>
+			<div id="div2" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img2" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item2.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$20<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Red Tie</label>
+				<button id="btn2" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+			<div id="div3" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img3" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item3.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$30<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Awsome Glases</label>
+				<button id="btn3" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+			<div id="div4" class="mydiv col-md-3 col-sm-6 col-xs-12">
+			
+				<img id="img4" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item4.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$40<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Royal Bow</label>
+				<button id="btn4" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			
+			</div>
+			<div id="div5" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img5" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item5.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$50<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Silk Saree</label>
+				<button id="btn5" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+			<div id="div6" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img6" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item6.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$60<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Flotars</label>
+				<button id="btn6" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+			<div id="div7" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img7" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item7.png">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$70<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Swag Cap</label>
+				<button id="btn7" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+			<div id="div8" class="mydiv col-md-3 col-sm-6 col-xs-12">
+				<img id="img8" class="col-md-12 col-sm-12 col-xs-12" style="height: 200px" src="myImages/item8.jpg">
+				<label class="productPrice col-md-12 col-sm-12 col-xs-12"><b>$80<b></label>
+				<label class="col-md-12 col-sm-12 col-xs-12">Fit Shirt</label>
+				<button id="btn8" class="buyNowButton col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" data-toggle="modal" data-target="#myModal">View</button>
+			</div>
+
+		</fieldset>
+		<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+		<br><br><br>
+
+		<footer class="myFooter row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<h2><u>Contact Us</u></h2>
+				<br>
+				<ul>
+					<li>9871211045</li>
+					<li>9871211045</li>
+					<li>9871211045</li>
+					<li>9871211045</li>
+					<li>9871211045</li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<h2><u>Our Speciality</u></h2>
+				<br>
+				<ul>
+					<li>Kurta Paijama</li>
+					<li>Shawls</li>
+					<li>beauty products</li>
+					<li>Sarees</li>
+					<li>Shirts</li>
+					<li>Kurta Paijama</li>
+					<li>Shawls</li>
+					<li>beauty products</li>
+					<li>Sarees</li>
+					<li>Shirts</li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<h2><u>Our Customers</u></h2>
+				<br>
+				<ul>
+					<li>Sahil</li>
+					<li>Somil</li>
+					<li>Varun</li>
+					<li>Akshay</li>
+					<li>Rahul</li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<h2><u>Our Brands</u></h2>
+				<br>
+				<ul>
+					<li>Puma</li>
+					<li>Nike</li>
+					<li>Adidas</li>
+					<li>Haldiram</li>
+					<li>Flieng Machine</li>
+					<li>Pepsi</li>
+					<li>Ram-Ram</li>
+				</ul>
+			</div>
+			<br><br>
+		</footer>
+
+
+		<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Product Detail</h4>
+      </div>
+      <div class="modal-body row">
+
+        <img id="modalImg" class="col-md-6 col-sm-6 col-xs-6" src=""></img>
+        <p id="modalPara" style="padding: 20px; font-size: 15px" class="col-md-6 col-sm-6 col-xs-6"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+</body>
+
+<script src="jquery-2.2.0.min.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js	"></script>
+<script type="text/javascript">
+
+	function changeModal(myImg,myText)
+	{
+		$("#modalImg").attr("src",myImg)
+		$("#modalPara").html(myText)
+	}
+
+	$(function(){
+
+		$("#img1").mouseover(function(){
+				$("#div1").css("opacity","0.3");				
+			})
+		$("#img1").mouseout(function(){
+				$("#div1").css("opacity","1");				
+			})
+		$("#btn1").click(function(){
+				changeModal("myImages/item1.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img2").mouseover(function(){
+				$("#div2").css("opacity","0.3");				
+			})
+		$("#img2").mouseout(function(){
+				$("#div2").css("opacity","1");				
+			})
+		$("#btn2").click(function(){
+				changeModal("myImages/item2.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img3").mouseover(function(){
+				$("#div3").css("opacity","0.3");				
+			})
+		$("#img3").mouseout(function(){
+				$("#div3").css("opacity","1");				
+			})
+		$("#btn3").click(function(){
+				changeModal("myImages/item3.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img4").mouseover(function(){
+				$("#div4").css("opacity","0.3");				
+			})
+		$("#img4").mouseout(function(){
+				$("#div4").css("opacity","1");				
+			})
+		$("#btn4").click(function(){
+				changeModal("myImages/item4.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img5").mouseover(function(){
+				$("#div5").css("opacity","0.3");				
+			})
+		$("#img5").mouseout(function(){
+				$("#div5").css("opacity","1");				
+			})
+		$("#btn5").click(function(){
+				changeModal("myImages/item5.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img6").mouseover(function(){
+				$("#div6").css("opacity","0.3");				
+			})
+		$("#img6").mouseout(function(){
+				$("#div6").css("opacity","1");				
+			})
+		$("#btn6").click(function(){
+				changeModal("myImages/item6.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img7").mouseover(function(){
+				$("#div7").css("opacity","0.3");				
+			})
+		$("#img7").mouseout(function(){
+				$("#div7").css("opacity","1");				
+			})
+		$("#btn7").click(function(){
+				changeModal("myImages/item7.png","this is a nice product please buy it you will be very happy")				
+			})
+
+
+		$("#img8").mouseover(function(){
+				$("#div8").css("opacity","0.3");				
+			})
+		$("#img8").mouseout(function(){
+				$("#div8").css("opacity","1");				
+			})
+		$("#btn8").click(function(){
+				changeModal("myImages/item8.jpg","this is a nice product please buy it you will be very happy")				
+			})
+
+
+	})
+</script>
+</html>

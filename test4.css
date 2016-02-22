@@ -1,0 +1,40 @@
+.corrosal-img{
+
+	max-height: 300px;
+	width:500;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+
+  }
+  label{
+  	text-align: center;
+  }
+
+  .mydiv{
+  	padding: 50px;
+  }
+
+  .buyNowButton{
+  	background-color: #0077fd;
+	border-style: solid;
+	color: white;
+	padding: 8px;
+	text-align:center;
+	font-size: 15px;
+  }
+
+  .productPrice{
+  	color:  #76C922;
+  	font-size: 30px;
+  }
+
+  .myFooter{
+	background:black;
+	text-align: justify;
+	color: white;
+	opacity: 0.8;
+}
